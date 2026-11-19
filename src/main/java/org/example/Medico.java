@@ -16,4 +16,8 @@ public class Medico {
     public void setNome(String nome) {
         this.nome = nome;
     }
+
+    public String obterMedicos() {
+        return this.getNome();
+    }
 }
